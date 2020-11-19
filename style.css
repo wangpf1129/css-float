@@ -1,0 +1,119 @@
+/* 初始化部分 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+img {
+  max-width: 100%
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* 导航栏部分 */
+header {
+  background-color: #ccc;
+  color: #595656;
+}
+
+.logo {
+  float: left;
+  margin-left: 10px
+}
+
+.logo>img {
+
+  height: 26px;
+  vertical-align: middle;
+  margin-top: 8px;
+}
+
+ul {
+  display: inline-block;
+  float: right;
+}
+
+ul>li {
+  float: left;
+  line-height: 32px;
+  padding: 4px .5em;
+  cursor: pointer;
+}
+
+/* 主体部分 */
+section {
+  width: 1200px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+aside {
+  width: 300px;
+  height: 500px;
+  float: left;
+  background-color: #999;
+}
+
+main {
+  width: 600px;
+  height: 500px;
+  float: left;
+  background-color: #ccc;
+}
+
+.ad {
+  width: 300px;
+  height: 500px;
+  float: left;
+  background-color: #666;
+}
+
+.imageList {
+  width: 1200px;
+  margin: 30px auto 0;
+}
+
+.imageList>.x {
+  margin-right: -28px;
+}
+
+.imageList>.x>.image {
+  width: 279px;
+  height: 279px;
+  float: left;
+  margin-right: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #595656;
+}
+
+footer {
+  width: 1200px;
+  margin: 30px auto 50px;
+}
+
+footer .left {
+  width: 430px;
+  height: 200px;
+  background-color: #666;
+  float: left;
+}
+
+footer .right {
+  width: 540px;
+  height: 200px;
+  background-color: #333;
+  float: right;
+}
